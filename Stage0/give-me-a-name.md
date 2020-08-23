@@ -1,17 +1,16 @@
-# -give-this-module-a-name
+# Trigger the ball
 
 ## Feature
 
-What part of the game does this module deliver?
+What part of the game does this module deliver? Starts the game.
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Start the game
 
-  Given -give-initial-values-and-conditions
+  Given: The player has begin the game
+  
+  When: Player clicks on 'start game' button
 
-  When -event-happens
-
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then: The module fires the ball from left to right.
+  
