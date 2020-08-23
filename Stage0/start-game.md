@@ -14,4 +14,3 @@ What part of the game does this module deliver? Starts the game.
   When: Player clicks on 'start game' button.
 
   Then: The module fires the ball from left to right.
-  
